@@ -9,7 +9,7 @@ undefined
 
 ## Table of Contents
 [ Description ](#desc) <br/>
-[ Installation ](#install)<br/>
+[ Installation ](https://www.gnu.org/licenses/agpl-3.0)<br/>
 [ Usage ](#usage)<br/>
 [ License ](#license)<br/>
 [ Contributing ](#contrib)<br/>
@@ -21,6 +21,7 @@ undefined
 
 <a id="install"></a>
 ## Installation
+
 undefined
 
 <a id="usage"></a>

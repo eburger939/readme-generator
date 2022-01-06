@@ -48,7 +48,7 @@ const questions = [
     // },     
     // {
     //     type: 'input',
-    //     message: 'Who contributed to this project?',
+    //     message: 'What contributions can be made?',
     //     name: 'contributors',
     // },    
 ];

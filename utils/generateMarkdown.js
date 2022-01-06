@@ -19,6 +19,18 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
+  switch(license) {
+    case 'GNU AGPLv3':
+     return `https://www.gnu.org/licenses/agpl-3.0`;
+    case 'Mozilla Public License 2.0':
+      return `https://opensource.org/licenses/MPL-2.0`;
+    case 'Apache License 2.0':
+    return `https://opensource.org/licenses/Apache-2.0`;
+    case 'MIT License':
+    return `https://opensource.org/licenses/MIT`;
+    default: return ""
+
+}
 }
 
 // TODO: Create a function that returns the license section of README
@@ -50,7 +62,7 @@ ${data.description}
 
 ## Table of Contents
 [ Description ](#desc) <br/>
-[ Installation ](#install)<br/>
+[ Installation ](${renderLicenseLink(data.license)})<br/>
 [ Usage ](#usage)<br/>
 [ License ](#license)<br/>
 [ Contributing ](#contrib)<br/>
@@ -62,6 +74,7 @@ ${data.description}
 
 <a id="install"></a>
 ## Installation
+
 ${data.install}
 
 <a id="usage"></a>
