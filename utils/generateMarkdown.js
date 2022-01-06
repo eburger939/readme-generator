@@ -62,9 +62,9 @@ ${data.description}
 
 ## Table of Contents
 [ Description ](#desc) <br/>
-[ Installation ](${renderLicenseLink(data.license)})<br/>
+[ Installation ](#install)<br/>
 [ Usage ](#usage)<br/>
-[ License ](#license)<br/>
+[ License ](${renderLicenseLink(data.license)})<br/>
 [ Contributing ](#contrib)<br/>
 [ Test ](#test)<br/>
 [ Questions ](#quest)<br/>
